@@ -1,4 +1,5 @@
 const { User } = require("../models");
+
 const { signToken } = require("../utils/auth");
 
 module.exports = {
@@ -29,7 +30,7 @@ module.exports = {
     const token = signToken(user);
     res.json({ token, user });
   },
-
+  // login a user, sign a token, and send it back (to client/src/components/LoginForm.js)
   async login({ body }, res) {
     const user = await User.findOne({
       $or: [{ username: body.username }, { email: body.email }],
@@ -46,7 +47,7 @@ module.exports = {
     const token = signToken(user);
     res.json({ token, user });
   },
-
+  // save a book to a user's `savedBooks` field by adding it to the set (to prevent duplicates)
   async saveBook({ user, body }, res) {
     console.log(user);
     try {

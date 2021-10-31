@@ -34,8 +34,8 @@ Guidelines for installing the app on your local machine:
 
 3. Run `npm run develop` in the terminal from the root directory to launch the application. Or check the deployed app directly on the app's Heroku link ().
 
-## **_Link URL to GitHub Repository_**
+### **_Link URL to GitHub Repository_**
 
-https://github.com/JPablo73/Book-Search-Engine
+https://github.com/JPablo73/Book_Search_Engine
 
-## **_Link URL of deployed app to Heroku_**
+### **_Link URL of deployed app to Heroku_**
