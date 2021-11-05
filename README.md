@@ -36,7 +36,7 @@ Guidelines for installing the app on your local machine:
 
 ### **_Link URL to GitHub Repository_**
 
-https://jpablo73.github.io/Book_Search_Engine/
+https://jpablo73.github.io/book_search_engine/
 
 ### **_Link URL of deployed app to Heroku_**
 
